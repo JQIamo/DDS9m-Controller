@@ -1516,26 +1516,46 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="332"/>
-<part name="C1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="22pF"/>
+<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="332">
+<attribute name="PARTNO" value="ERJ-3EKF3320V"/>
+</part>
+<part name="C1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="22pF">
+<attribute name="PARTNO" value="CL05C220JB51PNC"/>
+</part>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="0R"/>
+<part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="0R">
+<attribute name="PARTNO" value="MF-RES-0603-0"/>
+</part>
 <part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="DNP"/>
-<part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50k"/>
-<part name="C2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF"/>
-<part name="X1" library="connector-jqi" deviceset="BNC" device="-V"/>
-<part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10uF"/>
-<part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF"/>
+<part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="56k">
+<attribute name="PARTNO" value="ERA-3AEB563V"/>
+</part>
+<part name="C2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
+<part name="X1" library="connector-jqi" deviceset="BNC" device="-V">
+<attribute name="PARTNO" value="5227222-3"/>
+</part>
+<part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10uF">
+<attribute name="PARTNO" value="CL32B106KLJNNNE"/>
+</part>
+<part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G07" device="DCK" package3d_urn="urn:adsk.eagle:package:2405/1" technology="LVC">
 <attribute name="PARTNO" value="SN74LVC1G07DCKR"/>
 </part>
-<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF"/>
+<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="3.3k"/>
+<part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="3.3k">
+<attribute name="PARTNO" value="ERJ-3EKF3301V"/>
+</part>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1592,10 +1612,12 @@ Of course, the 100 us write period of the novatech is still the limitation.</tex
 <instance part="R1" gate="G$1" x="39.37" y="185.42" smashed="yes">
 <attribute name="NAME" x="32.0675" y="185.7375" size="1.524" layer="95"/>
 <attribute name="VALUE" x="42.7038" y="185.7375" size="1.524" layer="96"/>
+<attribute name="PARTNO" x="39.37" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="40.64" y="181.61" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.7035" y="181.0385" size="1.524" layer="95" rot="R270"/>
 <attribute name="VALUE" x="36.2585" y="181.0385" size="1.524" layer="96" rot="R270"/>
+<attribute name="PARTNO" x="40.64" y="181.61" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="69.85" y="201.93" smashed="yes">
 <attribute name="VALUE" x="67.31" y="196.85" size="1.778" layer="96" rot="R90"/>
@@ -1606,6 +1628,7 @@ Of course, the 100 us write period of the novatech is still the limitation.</tex
 <instance part="R2" gate="G$1" x="134.62" y="135.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="134.9375" y="143.1925" size="1.524" layer="95" rot="R270"/>
 <attribute name="VALUE" x="134.9375" y="132.5562" size="1.524" layer="96" rot="R270"/>
+<attribute name="PARTNO" x="134.62" y="135.89" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="134.62" y="123.19" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.3025" y="115.8875" size="1.524" layer="95" rot="R90"/>
@@ -1614,21 +1637,26 @@ Of course, the 100 us write period of the novatech is still the limitation.</tex
 <instance part="R4" gate="G$1" x="115.57" y="120.65" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.2525" y="113.3475" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.2525" y="123.9838" size="1.524" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="115.57" y="120.65" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="73.66" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.5965" y="198.6915" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="78.0415" y="198.6915" size="1.524" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="73.66" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="26.67" y="190.5" smashed="yes">
 <attribute name="NAME" x="24.13" y="193.802" size="1.778" layer="95"/>
+<attribute name="PARTNO" x="26.67" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="195.58" y="189.23" smashed="yes">
 <attribute name="NAME" x="196.1515" y="189.2935" size="1.524" layer="95"/>
 <attribute name="VALUE" x="196.1515" y="184.8485" size="1.524" layer="96"/>
+<attribute name="PARTNO" x="195.58" y="189.23" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="139.7" y="143.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="139.6365" y="144.0815" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="144.0815" y="144.0815" size="1.524" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="139.7" y="143.51" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="195.58" y="180.34" smashed="yes">
 <attribute name="VALUE" x="193.04" y="177.8" size="1.778" layer="96"/>
@@ -1648,6 +1676,7 @@ Of course, the 100 us write period of the novatech is still the limitation.</tex
 <instance part="C5" gate="G$1" x="83.82" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.7565" y="198.6915" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="88.2015" y="198.6915" size="1.524" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="83.82" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="96.52" y="176.53" smashed="yes">
 <attribute name="VALUE" x="93.98" y="173.99" size="1.778" layer="96"/>
@@ -1655,6 +1684,7 @@ Of course, the 100 us write period of the novatech is still the limitation.</tex
 <instance part="R5" gate="G$1" x="106.68" y="198.12" smashed="yes">
 <attribute name="NAME" x="99.3775" y="198.4375" size="1.524" layer="95"/>
 <attribute name="VALUE" x="110.0138" y="198.4375" size="1.524" layer="96"/>
+<attribute name="PARTNO" x="106.68" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="96.52" y="201.93" smashed="yes">
 <attribute name="VALUE" x="93.98" y="199.39" size="1.778" layer="96" rot="R90"/>
